@@ -35,7 +35,8 @@ def directors_totals(nds)
   total = directors_database[row_index_1][:movies][row_index_2][:worldwide_gross]
   grand_total += total
   
-  row_index += 1
+  binding.pry
+  row_index_1 += 1
   end
   # binding.pry
   # return director
