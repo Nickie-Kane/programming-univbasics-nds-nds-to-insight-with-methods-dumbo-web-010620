@@ -26,11 +26,16 @@ end
 # { directorOne => allTheMoneyTheyMade, ... }
 def directors_totals(nds)
   result = {}
-  director = directors_database[0][:name]
-  result[director] = {}
+  director_index = 0
+  while director_index < nds.length do
+    director = nds[director_index]
+    binding.pry
+  director_index += 1  
+  end
+  # result[director] = {}
   # row_index_1 = 0
-  # while row_index_1 < directors_database.length do
-  # director = directors_database[row_index_1][:name]
+  # while row_index_1 < nds.length do
+  # director = nds[row_index_1][:name]
   # result[director] = {}
   
   #   row_index_2 = 0
