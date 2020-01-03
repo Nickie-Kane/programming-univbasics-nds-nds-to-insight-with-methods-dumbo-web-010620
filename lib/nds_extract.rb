@@ -33,12 +33,10 @@ def directors_totals(nds)
   row_index_2 = 0
   grand_total = 0 
   while row_index_1 < directors_database.length do
-  total = directors_database[row_index_1][:movies][row_index_2][:worldwide_gross]
-  binding.pry
-  grand_total += total
+  directors_database[row_index_1]
+    while do
     
-  
-  # binding.pry
+    end
   row_index_1 += 1
   end
   # binding.pry
