@@ -27,8 +27,9 @@ end
 def directors_totals(nds)
   nds
   result = {}
-  director = nds[0][:name]
+  directors_database = nds[0][:name]
   result[director] = {}
+  
   # row_index = 0
   # grand_total = 0 
   # while row_index < directors_database[0][:movies].length do
