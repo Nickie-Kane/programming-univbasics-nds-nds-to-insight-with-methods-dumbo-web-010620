@@ -25,8 +25,8 @@ end
 #
 # { directorOne => allTheMoneyTheyMade, ... }
 def directors_totals(nds)
-  nds
-  result = {}
+  # nds
+  # result = {}
   # director = nds[0][:name]
   # result[director] = {}
   row_index = 0
@@ -37,8 +37,7 @@ def directors_totals(nds)
   
   row_index += 1
   end
-  return result[director] = grand_total
-  binding.pry
+  
   return grand_total
   
   
