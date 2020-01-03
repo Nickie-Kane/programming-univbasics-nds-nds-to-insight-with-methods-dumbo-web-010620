@@ -28,7 +28,7 @@ def directors_totals(nds)
   nds
   result = {}
   director = directors_database[0][:name]
-  # result[director] = {}
+  result[director] = {}
   row_index_1 = 0
   while row_index_1 < directors_database.length do
   director = directors_database[row_index_1][:name]
