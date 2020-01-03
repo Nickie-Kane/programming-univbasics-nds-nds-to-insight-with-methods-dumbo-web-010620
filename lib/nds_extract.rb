@@ -27,19 +27,19 @@ end
 def directors_totals(nds)
   nds
   result = {}
-  director = nds[0][:name]
-  result[director] = {}
-  # row_index = 0
-  # grand_total = 0 
-  # while row_index < directors_database[0][:movies].length do
-  # total = directors_database[0][:movies][row_index][:worldwide_gross]
-  # grand_total += total
+  # director = nds[0][:name]
+  # result[director] = {}
+  row_index = 0
+  grand_total = 0 
+  while row_index < directors_database[0][:movies].length do
+  total = directors_database[0][:movies][row_index][:worldwide_gross]
+  grand_total += total
   
-  # row_index += 1
-  # end
-  # return result[director] = grand_total
-  # binding.pry
-  # return grand_total
+  row_index += 1
+  end
+  return result[director] = grand_total
+  binding.pry
+  return grand_total
   
   
   # binding.pry
