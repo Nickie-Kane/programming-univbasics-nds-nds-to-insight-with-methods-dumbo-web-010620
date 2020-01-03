@@ -24,6 +24,16 @@ end
 # The return value should be like:
 #
 # { directorOne => allTheMoneyTheyMade, ... }
+def gross_for_director(director_data)
+    index = 0
+    total = 0
+    binding.pry
+    while index <  director_data.do
+      
+    index += 1  
+    end
+end
+
 def directors_totals(nds)
   result = {}
   director_index = 0
