@@ -30,6 +30,7 @@ def directors_totals(nds)
   result = {}
   director = nds[0][:name]
   result[director] = {}
+  binding.pry
   row_index = 0
   grand_total = 0 
   while row_index < directors_database[0][:movies].length do
