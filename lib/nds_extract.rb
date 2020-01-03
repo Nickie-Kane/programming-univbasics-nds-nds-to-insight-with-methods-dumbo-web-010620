@@ -27,11 +27,9 @@ end
 def directors_totals(nds)
   result = {}
   director_index = 0
-  binding.pry
   while director_index < nds.length do
     director = nds[director_index]
-    result[director[:name=>]]
-    # binding.pry
+    # result[director[:name=>]]
   director_index += 1  
   end
   # result[director] = {}
