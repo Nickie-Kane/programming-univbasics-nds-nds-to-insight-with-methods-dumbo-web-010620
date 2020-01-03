@@ -39,6 +39,6 @@ def directors_totals(nds)
   end
   # binding.pry
   # return director
-  # return grand_total
+  return result[director] = {'total'=>grand_total}
 
 end
