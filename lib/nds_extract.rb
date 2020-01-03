@@ -28,7 +28,7 @@ def gross_for_director(director_data)
     index = 0
     total = 0
     binding.pry
-    while index <  director_data.do
+    while index <  director_data[:movies].length do
       
     index += 1  
     end
